@@ -12,6 +12,18 @@
 // 	 });
 //  }
 // divs();
+// function divs(){
+//   var section = document.getElementsByClassName('juego');
+//   section.style.height = '80vh';
+//   section.addEventListener ('mousemove', function(event){
+//     console.log(event);
+//     var x= event.clientX;
+//     var y=event.clientY;
+//     div.textContent = x+','+y;
+//     div.style.backgroundColor='rgb('+x+','+y+ ', 100)';
+//    });
+// }
+// divs();
 
 var add = document.getElementById('add');
 function addUser() {
@@ -38,13 +50,34 @@ add.onclick = function (){
 	addUser();
 }
 
+function divs(){
+  var body = document.getElementsByTagName('BODY');
+  var mazeSpot = document.getElementById("fondoJuego"); 
+  var titulo =document.getElementById("titulo");
+  div = document.createElement('DIV');
+  div.setAttribute("id","colores");
+  div.style.height = '100vh';
+  div.style.width = '220vh';
+  div.appendChild(titulo);
+  mazeSpot.appendChild (div);
+  div.addEventListener ('mousemove', function(event){
+    console.log(event);
+    var x= event.clientX;
+    var y=event.clientY;
+    div.style.backgroundColor='rgb('+x+','+y+ ', 100)';
+   });
+ }
+divs();
+
 
 function tab(){
-	var mazeSpot = document.getElementById("mazeSpot");
+	var mazeSpot = document.getElementById("colores");
+  var fondoJuego=document.getElementById("fondoJuego");
 	mazeSpot.innerHTML='';
 	var div1 = document.createElement('DIV');
 	div1.setAttribute("id", "tablero");
 	mazeSpot.appendChild(div1);
+  fondoJuego.appendChild(mazeSpot);
 
 	// var div2 = document.createElement('DIV');
 	// div2.setAttribute("class", "row");

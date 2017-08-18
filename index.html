@@ -40,21 +40,26 @@
 					<i class="fa fa-heart"></i>
 				</a>
 			</form>
-			<p class="small">
-				Already applied?
-				<span>Check the status of your application here.</span>
-			</p>
-			<p class="small">
-				Earn money for inviting friends to drive.
-				<span> Learn more. </span>
-			</p>
+			<div id="texto">
+				<p class="small">
+					Already applied?
+					<span>Check the status of your application here.</span>
+				</p>
+				<p class="small">
+					Earn money for inviting friends to drive.
+					<span> Learn more. </span>
+				</p>
+			</div>
 		</div>
 	</section>
-	<section class="juego">
-		<h2 class="h2-play">Play with Lyft</h2>
+	<section class="juego" id="fondoJuego">
+		<h2 class="h2-play" id="titulo">Play with Lyft</h2>
 
 		<div class="container">
 			<div class="row">
+				<div id="mazeSpot">
+					
+				</div>
 				<form class="col s2" id='buttonSpot'>
 			    	<a href="#" id="start-button" class="waves-effect waves-light btn-large block" class="btn" onclick="Materialize.toast('Para empezar el juego haz click en Start y escoge la opcion que deseas', 4000)">
 			    		<i class="fa fa-info" aria-hidden="true"></i>
@@ -74,20 +79,17 @@
 		</div>
 	
 
-		<div class="container">
+		<div class="container" id="container">
 			<div class="row">
-				<div id="mazeSpot">
-					
-				</div>
 			</div>
 				
 		</div>		
-	</section>
+	
 	<footer class="page-footer">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Sprint 3 - Project</h5>
+          <h5 class="white-text"> <abbr title="Cascading Style Sheets">Sprint 3 - Project</abbr></h5>
           <p class="grey-text text-lighten-4">Site By
           	<br>Milagros Rodriguez & Diana Silva
           </p>
@@ -124,6 +126,7 @@
       </div>
     </div>
   </footer>
+  </section>
 	<script src="assets/js/main.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/materialize.min.js"></script>

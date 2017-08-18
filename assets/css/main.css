@@ -6,8 +6,10 @@ Colors:
 #75726C;
 #EDE9E2
 */
+
 body{
 	font-family: 'Raleway', sans-serif;
+	background-color: purple;
 }
 
 nav{
@@ -47,17 +49,14 @@ nav{
 	color: #75726C;
 	font-size: 1em;
 }
-
+.juego{
+	top: 600px;
+}
 .principal .caja-blanca .btn-big{
 	border-radius: 15px;
 	background-color: #E56385;
 	height: 45px;
 	line-height: 45px;
-}
-
-.juego{
-	background-color: #00B2A9;
-	padding: 40px 0;
 }
 
 #tablero{
@@ -88,13 +87,13 @@ a.block{
 	color: #75726C;
 	margin-top: 40px;
 	margin-bottom: 80px;
+	position: absolute;
+	top: 400px;
 }
 #tablero i{
 	color: #75726C;
 }
-.fila{
 
-}
 .fila:before, .fila:after{
 	content: "";
 	display: block;
@@ -124,6 +123,9 @@ a.block{
 
 .page-footer{
 	background-color: #75726C;
+	position: absolute;
+	top:400px;
+	width: 220vh;
 }
 
 /* ----NEW CSS---*/
@@ -134,12 +136,12 @@ a.block{
 #start-button{
 	position: absolute;
 	left: 60px;
-	bottom: -310px;
+	bottom: 700px;
 }
 .fixed-action-btn{
 	position: absolute;
 	right: 50px;
-	bottom: -310px;
+	bottom: 700px;
 }
 
 #wall{
@@ -182,8 +184,10 @@ a.block{
   	color: white;
 }
 .h2-play{
-	border:1rem solid black;
-	border-style: dotted;
+	border:1rem solid grey;
+	border-style: dashed;
+	position: relative;
+	bottom: 1200px;
 }
 
 .pie-img{
@@ -194,6 +198,25 @@ a.block{
 	width: 40px;
 	margin-left:40px;
 }
+
+.caja-blanca {
+    border: 20px solid;
+    padding: 40px;
+    background: #dddddd;
+    border-top-right-radius: 10em;
+    border-bottom-left-radius: 10em;
+    background-image: url(../img/portada1.jpg);
+}
+
+#texto{
+	background-color: purple;
+	opacity: 0.9;
+}
+ p, span {
+ 		color: black;
+    	transition: all 0.3;
+    	opacity: 1;
+ }
 /*#muestras img  { 
 	width: 100px; 
 	margin: 10px 30px; 
@@ -212,3 +235,25 @@ a.block{
 	border: 5px double green; 
     background-color: #f4f0c9; 
 }*/
+
+h2{
+	color:purple;
+}
+/*#colores{
+	position: relative;
+	bottom: 40px;
+}*/
+#colores {
+	position: relative;
+	bottom: 650px;
+}
+#titulo{
+	position: absolute;
+	top: 80px;
+	width: 1350px;
+	height: 240px;
+	left: 0px;
+}
+#fondoJuego {
+	position: relative;
+}
