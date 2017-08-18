@@ -1,3 +1,18 @@
+// function divs(){
+//   var mazeSpot = document.getElementById("a");
+//   div = document.createElement('DIV')
+//   div.style.height = '80vh';
+// 	mazeSpot.appendChild (div);
+//  div.addEventListener ('mousemove', function(event){
+//  	console.log(event);
+// 	 	var x= event.clientX;
+// 	 	var y=event.clientY;
+//    div.textContent = x+','+y;
+// 	 	div.style.backgroundColor='rgb('+x+','+y+ ', 100)';
+// 	 });
+//  }
+// divs();
+
 var add = document.getElementById('add');
 function addUser() {
 	var numero= document.getElementById("num").value;
@@ -23,8 +38,6 @@ add.onclick = function (){
 	addUser();
 }
 
-
-var play = document.getElementById('play');
 
 function tab(){
 	var mazeSpot = document.getElementById("mazeSpot");
@@ -191,7 +204,7 @@ function juego(){
         
          console.log(newPosition);
  		x--;
- 		
+
  	}else if(celdaFinal == map1[y][x-1]){
  		swal({
  		  title: "Congrats!",
@@ -212,3 +225,13 @@ function juego(){
  		else if(event.keyCode == 40)
  			moveBackward();
  	}
+
+// muestra(num) {
+// 	 var imagen = document.images[num].src
+// 	 var comentario = document.images[num].alt
+// 	 var grande = document.images["pantalla"]
+// 	 var texto = document.getElementById("descripcion")
+// 	 grande.src = imagen
+// 	 texto.innerHTML = comentario
+// }
+

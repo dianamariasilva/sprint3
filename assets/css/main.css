@@ -181,3 +181,34 @@ a.block{
   	font-size: 25px;
   	color: white;
 }
+.h2-play{
+	border:1rem solid black;
+	border-style: dotted;
+}
+
+.pie-img{
+	border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	border: 0px solid #000000;
+	width: 40px;
+	margin-left:40px;
+}
+/*#muestras img  { 
+	width: 100px; 
+	margin: 10px 30px; 
+	cursor: pointer, hand; 
+}
+
+#visor  { 
+	text-align: center;
+	float: right; 
+	margin: 0 20px 
+}
+
+#pantalla  { 
+	width: 500px; 
+	padding: 30px; 
+	border: 5px double green; 
+    background-color: #f4f0c9; 
+}*/
