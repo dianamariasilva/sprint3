@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	background: #edf4f0;
+}
+
+.asterisco-left{
+  color:white;
+  border-left: black 4.5px solid;
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
+}
+.asterisco-top{
+  color:white;
+  border-top: black 4.5px solid;
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
+}
+.asterisco-right{
+  color:white;
+  border-right: black 4.5px solid;
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
+}
+.asterisco-bottom{
+  color:white;
+  border-bottom: black 4.5px solid;
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
+}
+.asterisco-combinado1{
+  color:white;
+  border-left: black 4.5px solid;
+  border-top: black 4.5px solid;
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
+}
+.asterisco-combinado2{
+	color:white;
+  border-left: black 4.5px solid;
+  border-bottom: black 4.5px solid;
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
+}
+.asterisco-combinado3{
+  color:white;
+  border-right: black 4.5px solid;
+  border-bottom: black 4.5px solid;
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
+}
+.asterisco-combinado4{
+  color:white;
+  border-right: black 4.5px solid;
+  border-top: black 4.5px solid;
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
+}
+
+.asterisco-t{
+  color:white;
+  /*border-top:4px solid #d00;
+	border-left:4px solid #c00;
+	border-bottom:4px solid #900;
+	border-right:4px solid #a00;
+	background-color:#b00;
+	z-index:2;*/
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
+}
+.espacio{
+  color:white;
+  background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);
+}
+
+.inicio{
+  background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);
+  color:white;
+}
+
+.fin{
+  color:white;
+  background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);
+}
+
+td{
+  height: 50px;
+  width: 35px;
+}
+
+.ganado{
+  
+}
+
+#initial{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
+
+#moveRight{
+  transform:  rotate(90deg);
+}
+#moveBackward{
+  transform:  rotate(180deg);
+}
+#moveLeft{
+  transform:  rotate(270deg);
+}

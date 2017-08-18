@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Maze</title>
+	<link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+</head>
+<body>
+	<div>
+       <h1 class="center-align">Angry Bird Maze</h1>
+    </div>
+
+    <!--LABERINTO Y BOTONES EXTRAS-->
+    <div class="container">
+        <div class="row" id="completo">
+            <div class="col s9">
+                <div id="tablero"></div>
+                <div id="dibujo"></div>
+            </div>
+            <div class="col s3">
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-3">
+                    <i class="material-icons" id="moveForward">navigation</i>
+                </a>
+                <br><br>
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-3">
+                    <i class="material-icons" id="moveLeft">navigation</i>
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-3">
+                    <i class="material-icons" id="moveRight">navigation</i>
+                </a>
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-3">
+                    <i class="material-icons" id="moveBackward">navigation</i>
+                </a>
+            </div>
+        </div> 
+    </div>
+
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
